@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+        <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+        <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link type="text/css" rel="stylesheet" href="">
+
+<title>envio pastafrola batata</title>
+
+</head>
+
+ 
+<body > 
+   
+  <div style="color: white; background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light "  style="background-color: black;" >
+    
+      <div class="container-fluid " style="background-color: black;" >
+        <div style="border:1px solid black;margin-right: 10px;" >
+          <img src="images/punto_dulce.jpg" width="80" height="40">
+      </div>
+    
+        <a class="navbar-brand" href="http://localhost/practica/index.html#" style="color: white;background-color: black;">INICIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+    
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://localhost/practica/servicio.html#" style=" margin-left: 750px; color: white; background-color: black;">SERVICIO</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost/practica/producto.html#" style="color: white; background-color: black;">PRODUCTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://localhost/practica/quienes_somos.html#" style=" margin-left: 0px; color: white;background-color: black;">¿QUIENES SOMOS?</a>
+            </li>
+    
+            
+    
+    
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://localhost/practica/devolucion.html#" style=" margin-left: 0px; color: white;background-color: black;">DEVOLUCION</a>
+            </li>
+    
+            <li class="nav-item"  >
+              <a class="nav-link active" aria-current="page" href="http://localhost/practica/practica_1.html" style="color: white; margin-left: 0px; background-color: black; ">INICIAR SESION</a>
+            </li>
+    
+          </ul>
+    
+          <form class="d-flex">
+            <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>-->
+        </div>
+      </div>
+    </nav>
+    </div>
+
+    
+  &nbsp;
+
+
+<div class="container" id="container" >
+    <div id="container" style="text-align: center;margin: 0px;margin-left: 350px;margin-top: 0px;">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <nav aria-label="breadcrumb" >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="http://localhost/practica/categoria.html#">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="http://localhost/practica/panaderia.html#">Panaderia</a></li>
+          <li class="breadcrumb-item"><a href="http://localhost/practica/pastaflora.html#">Pastafrola</a></li>
+          <li class="breadcrumb-item"><a href=" http://localhost/practica/ver_mas_pastafrola_batata.html#">Pastafrola batata</a></li>
+          <li class="breadcrumb-item"><a href="http://localhost/practica/comprar_pastafrola_batata.html#">Comprar</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Envio</li>
+        </ol>
+      </nav>
+    </div>
+
+
+<table class="table">
+  <div class="row ">
+
+    <div class="col-2" >
+
+      <ul style="list-style: none;">
+        <li >CATEGORIA</li>           
+      </ul>
+
+      <ol style="list-style: none;">
+
+        <li>
+          <a href="http://localhost/practica/pasteleria.html#">PASTELERIA</a>
+        </li> 
+
+        <li>
+          <a href="http://localhost/practica/panaderia.html#" onclick="mostrarCategoria();" >PANADERIA</a>
+        </li>
+
+        <ul >
+
+          <li style="list-style: none; " >
+            <a href="http://localhost/practica/pastaflora.html#" style="color: red; ">pastafrolas</a>
+            <a href="#" id="mas" onclick="mostrarCategoria(); " style="font-size: 13px; margin: 0px;">(ver más)</a>
+            <a href="#" id="menos" onclick="validarSacar();" style="display: none;font-size: 13px; margin: 0px;">(ver menos)</a>
+          </li>
+
+            <li class="categoria" id="pan"  style="  display: none; list-style: none; " ><a href=""> pan  </a></li>
+            <li class="categoria" id="mufins"  style="  display: none; list-style: none;" ><a href=""> mufins </a></li>
+            <li class="categoria" id="donas"  style="  display: none; list-style: none;"><a href=""> donas </a></li>
+            <li class="categoria" id="churros"  style="  display: none; list-style: none;"><a href=""> churros </a></li>
+            <li class="categoria" id="facturas"  style="  display: none; list-style: none;"><a href=""> facturas </a></li>
+            <li class="categoria" id="pastelitos"  style="  display: none; list-style: none;"><a href=""> pastelitos </a></li>
+            <li class="categoria" id="galletitas"  style="  display: none; list-style: none;"><a href=""> galletitas </a></li>
+            <li  class="categoria" id="bolitas_de_fraile"  style="  display: none; list-style: none;"><a href=""> bolitas de fraile </a></li>
+
+        </ul>
+
+        
+
+      </ol>
+
+    </div>
+  
+  
+    <div class="col-10" style="float: left;">
+      <div class="table">
+
+        <div class="row">
+
+          <div class="col-6">
+            
+            <figure class="figure">
+              <img src="images/pastafrola_batata.jpg" class="figure-img img-fluid rounded" alt="...">
+            </figure>
+            <div class="d-grid gap-2 d-md-block">
+              <a href="http://localhost/practica/comprar_pastafrola_batata.html" class="btn btn-primary">retiro</a>
+              <a href="http://localhost/practica/index.html#" class="btn btn-primary" target="_blank" onclick="validarBoton();" >comprar</a>
+              <a href="#" class="btn btn-primary" onclick="validarDevolucion();">devoluciones</a>
+            </div>
+            
+
+          </div>
+
+         
+
+            <div class="col-8" style="width: 325px; margin: 0px;">
+              <div class="table" style="border: 1px solid black;border-radius: 5px; margin: 0px;padding:0px;">
+                <div class="row">
+  
+                  <div class="col" >
+                    <h4  style="margin: 0px;">Pastafrola de batata</h4>
+                    <p  style="margin: 0px;">$150</p>
+                    <p  style="color: darkgreen; margin: 0px;">Envio Gratis</p>
+                    <p  style="margin: 0px;">Ubicación:Buenos Aires</p>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+    
+      </div>
+    </div>
+</table>
+  </div>
+  
+
+
+
+
+
+<div id="devoluciones" style="display: none; border: 1px solid black; border-radius: 5px; width: 50%; height: 50%; background-color: white; margin:auto;">
+    <h1 style="text-align: center;">Podés devolver este producto gratis. ¡No importa el motivo!</h1>
+    <ul >
+    
+    <li ><p >Tenés 30 días desde que te llega.</p></li>
+    
+    <li><p>Podés enviarlo desde tu correo más cercano.</p></li>
+    
+    <li><p >Para devolverlo, el producto debe estar tal cual lo recibiste.</p></li>
+    </ul>
+</div>
+
+
+  
+
+<div class="table" >
+  <div class="row" style=" background:linear-gradient( pink, white); padding:25px; margin-top: 0px; box-shadow: rgb(255, 0, 0) black 5px;">
+
+    <div class="col-md-4">
+      <div style="float:left; margin-left: 100px;"  >
+        <h3 style="text-align: center;">Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52502.85507938859!2d-58.65170343102125!3d-34.669134750520875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc76f57e3be01%3A0xa488fcdcec5b600f!2sMor%C3%B3n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1626190817802!5m2!1ses-419!2sar" width="350" height="190" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div class="col-md-4"   style=" padding-left: 150px;" >
+      <footer >
+        <div class="table" >
+          <h3>CONTACTO </h3>
+          <div class="row"  >
+            <ul style="list-style: none;" >
+              <div  class="col-md-6" style="margin-left: 5px; padding-top: 40px;" >
+                <li >
+                  <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" ><u>EMAIL</u></a>
+                </li>
+              </div>
+              <div class="col-md-6"  style="margin-left: 5px;padding-top: 0px;" >
+                <li>
+                  <a href="https://web.whatsapp.com/" target="_blank"><u>WHATSAPP</u></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="col-md-4" >
+      <h3>REDES SOCIALES</h3>
+      <div class="row" >
+        <ul style="list-style: none;">
+
+          <div  class="col-md-3">
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"><u>INSTAGRAM</u></a>
+            </li>
+          </div>
+
+          <div class="col-md-3">
+            <li>
+              <a href="https://twitter.com/" target="_blank"><u>TWITTER</u></a>
+            </li>
+          </div>
+
+          <div  class="col-md-3">
+            <li>
+              <a href="https://es-la.facebook.com/"  target="_blank"><u>FACEBOOK</u></a>
+            </li>
+          </div>
+              
+          <div  class="col-md-3">
+            <li>
+              <a href="https://www.youtube.com/"  target="_blank"><u>YOUTUBE</u></a>
+            </li>
+          </div>
+               
+        </ul>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 0px;margin-bottom:0px;text-align: center;" >Pasteleria & Panaderia © 2021 </h2>
+   
+  </div>
+</div>
+    
+
+
+
+
+           
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+<script src="js/jquery.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+<script>
+    function mostrarCategoria() {
+        $("#pan").show();
+        $("#donas").show();
+        $("#mufins").show();
+        $("#churros").show();
+        $("#facturas").show();
+        $("#pastelitos").show();
+        $("#galletitas").show();
+        $("#bolitas_de_fraile").show();
+        $("#mas").hide();
+        $("#menos").show();
+    }
+
+
+
+
+
+    function validarSacar() {
+        $("#pan").hide();
+        $("#donas").hide();
+        $("#mufins").hide();
+        $("#churros").hide();
+         $("#facturas").hide();
+         $("#pastelitos").hide();
+         $("#galletitas").hide();
+         $("#bolitas_de_fraile").hide();
+        $("#menos").hide();
+        $("#mas").show();
+    }
+    
+    function validarDevolucion() {
+        document.getElementById("devoluciones").style.display = "block";
+        document.getElementById("container").style.display = "none";
+        
+    }
+
+</script>
+
+<script>
+    function validarBoton() {
+  alert("Gracias por su compra, se a enviado correctamente");
+  }
+  </script>
+
+
+<!--<script>
+  function validarDatos() {
+  $("#form2").show();
+  $("#form2").hide();
+
+}
+
+
+function validarEnvio() {
+  $("#radio").show();
+  $("#form2").show();
+
+}
+
+
+
+</script>
+
+<script>
+  function validarBoton() {
+alert("Gracias por su compra, se a enviado correctamente");
+}
+</script>-->
+
+
+
+
+</body>
+</html>

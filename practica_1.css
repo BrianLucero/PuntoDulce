@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/pastel.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+    background-size: 1030px;
+}
+
+/*iniciar sesion*/
+#form {
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 125px;
+    background-color: white;
+    
+}
+
+#form h3 {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#form hr {
+    margin-bottom: 10px;
+}
+
+.inputs {
+    width: 93.5%;
+    height: 35px;
+    margin:5px;
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+#boton_e {
+    align-items: center;
+    text-align: center;
+    width: 93.5%;
+    height: 35px;
+    margin:5px;
+    padding:auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom:20px;
+    margin-top:5px;
+    color: white;
+    background-color:  darkgreen;
+}
+
+#boton_cc {
+    text-align: center;
+    width: 60%;
+    height: 35px;
+    margin:5px;
+    padding:auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:5px;
+    margin-top:10px;
+    background-color: lightblue;
+    color: black;
+}
+
+/*crear cuenta*/
+#form2 {
+    display: none;
+    text-align: center;
+    width: 25.5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0;
+    margin-top: 125px;
+    background-color: white;
+}
+
+#form2 h3 {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#form2 p {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.input_nya {
+    width: 45%;
+    height: 35px;
+    margin:5px;
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    align-items: center;
+}
+
+.inputs2 {
+    width: 93%;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    align-items: center;
+}
+
+.input_nac {
+    width:93% ;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 80px;
+    font-size: 20px;
+
+}
+
+.input_r {
+    width: 10%;
+    height: 15px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+.input_s{
+    margin: 0;
+    padding:0;
+    width: 50%;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: darkgreen;
+}
+
+
+.input_b{
+    margin: 0;
+    padding:0;
+    width: 8%;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+   

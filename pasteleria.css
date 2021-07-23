@@ -1,0 +1,51 @@
+body{
+    background-color: lightskyblue;
+}
+
+.borde a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.borde ol a:hover {
+    color: violet;
+}
+
+.container .borde_blanco h1:hover {
+    color: pink;
+}
+
+
+.container h1 {
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.card-text {
+    padding-left: 50px;
+   
+}
+
+/*encabezdo pasteleria*/
+.col-9 .table h1 {
+    background-color: white;
+    border: 1px solid white;
+    background-color: white; 
+    text-align: center;
+    margin:0px;
+    margin-left:195px;
+    margin-right:220px;
+}
+
+  /*border blanco pasteleria*/
+.col-9 .borde_blanco {
+    border: 1px solid white;
+    width: 85%; 
+    margin-top: 0px;
+    float: left;
+    margin-right: 5px; 
+    border-radius: 10px;
+    background-color: white;
+}

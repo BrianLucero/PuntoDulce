@@ -1,0 +1,87 @@
+body {
+    background: lightskyblue;
+}
+
+.bordee ol li a:hover {
+    color: violet;
+    
+}
+
+/*panaderia*/
+.container h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.container h1:hover {
+    color: blue;
+}
+
+.container h5 {
+    text-align: center;
+}
+
+.container  a  {
+    margin-left: 18px;
+}
+
+/*border_blanco pasteleria*/
+.container .borde_blanco {
+    border: 1px solid white;
+    width: 49%;
+     margin-top: 0px;
+    float: left; 
+    margin-right: 20px; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.container .borde_blanco h1 {
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    margin:0px;
+    margin-left:190px;
+    margin-right:200px;
+}
+
+.container .borde_blanco h1 a{
+    color: black; 
+    text-decoration: none;
+}
+    
+.container .borde_blanco h1 a:hover{
+    color: pink;
+}   
+
+
+
+
+/*border_blanco panaderia*/
+.container .borde_blanco_panaderia {
+    border: 1px solid white;
+    margin-left:665px;
+    margin-right: 0px; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container .borde_blanco_panaderia h1 {
+    border: 1px solid white ; 
+    background-color: white;
+    text-align: center;
+    margin:0px;
+    margin-left:205px;
+    margin-right:185px;
+    padding-right: 200px;
+}
+
+.container .borde_blanco_panaderia h1 a {
+    color: black; 
+    text-decoration: none;
+}
+
+.container .borde_blanco_panaderia h1 a:hover {
+    color:lightblue;
+}
