@@ -23,7 +23,7 @@
           <img src="images/punto_dulce.jpg" width="80" height="40">
       </div>
     
-        <a class="navbar-brand" href="index.html#" style="color: white;background-color: black;">INICIO</a>
+        <a class="navbar-brand" href="index.html" style="color: white;background-color: black;">INICIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,25 +32,25 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
     
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="servicio.html#" style=" margin-left: 750px; color: white; background-color: black;">SERVICIO</a>
+              <a class="nav-link active" aria-current="page" href="servicio.html" style=" margin-left: 750px; color: white; background-color: black;">SERVICIO</a>
             </li>
     
             <li class="nav-item">
-              <a class="nav-link" href="producto.html#" style="color: white; background-color: black;">PRODUCTO</a>
+              <a class="nav-link" href="producto.html" style="color: white; background-color: black;">PRODUCTO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="quienes_somos.html#" style=" margin-left: 0px; color: white;background-color: black;">¿QUIENES SOMOS?</a>
+              <a class="nav-link active" aria-current="page" href="quienes_somos.html" style=" margin-left: 0px; color: white;background-color: black;">¿QUIENES SOMOS?</a>
             </li>
     
             
     
     
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="devolucion.html#" style=" margin-left: 0px; color: white;background-color: black;">DEVOLUCION</a>
+              <a class="nav-link active" aria-current="page" href="devolucion.html" style=" margin-left: 0px; color: white;background-color: black;">DEVOLUCION</a>
             </li>
     
             <li class="nav-item"  >
-              <a class="nav-link active" aria-current="page" href="practica_1.html" style="color: white; margin-left: 0px; background-color: black; ">INICIAR SESION</a>
+              <a class="nav-link active" aria-current="page" href="practica.php" style="color: white; margin-left: 0px; background-color: black; ">INICIAR SESION</a>
             </li>
     
           </ul>
@@ -74,9 +74,9 @@
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <nav aria-label="breadcrumb" >
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html#">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="pasteleria.html#">Pasteleria</a></li>
-            <li class="breadcrumb-item"><a href="torta_niñas.html#">Tortas de Niñas</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="pasteleria.html">Pasteleria</a></li>
+            <li class="breadcrumb-item"><a href="torta_niñas.html">Tortas de Niñas</a></li>
             <li class="breadcrumb-item active" aria-current="page">Torta Niñas Corona</li>
           </ol>
         </nav>
@@ -96,13 +96,18 @@
       
         <ol style="list-style: none;">
           <li >
-            <a href="pasteleria.html#" onclick="mostrarCategoria();">PASTELERIA</a>
+            <a href="pasteleria.html" onclick="mostrarCategoria();">PASTELERIA</a>
             <ul >
-      
-              <li class="categoria" id="bebe" style="  display: none;list-style: none"  >
-                <a href="torta_bebe.html#" > bebés  </a>
-                     
+
+              <li class="categoria" id="mujeres"  style="  display: none; list-style: none;">
+                <a href="torta_mujeres.html"> mujeres </a>
               </li>
+
+              <li class="categoria" id="hombres"  style="  display: none; list-style: none;">
+                <a href="torta_hombres.html"> hombres </a>
+              
+              </li>
+      
 
               <li class="categoria" id="niñas"  style=" list-style: none;" >
                 <a href="torta_niñas.html" style="color: red; ;"> niñas </a>
@@ -110,23 +115,14 @@
                 <a href="#" id="menos" onclick="validarSacar();" style="display: none;font-size: 13px; margin: 0px;">(ver menos)</a>
               </li>
 
-              <li class="categoria" id="niños"  style="  display: none; list-style: none;">
-                <a href="torta_niños.html#"> niños </a>
-              </li>
-
-              <li class="categoria" id="hombres"  style="  display: none; list-style: none;">
-                <a href="torta_hombres.html#"> hombres </a>
               
-              </li>
-              <li class="categoria" id="mujeres"  style="  display: none; list-style: none;">
-                <a href="torta_mujeres.html#"> mujeres </a>
-              </li>
+              
                       
             </ul>
           </li> 
       
           <li>
-            <a href="panaderia.html#"  >PANADERIA</a>
+            <a href="panaderia.html"  >PANADERIA</a>
           </li>
         </ol>
 
@@ -139,8 +135,8 @@
           <div class="row">
 
             <div class="col-6">
-              <div class="card" style=" box-shadow: 5px 5px palevioletred ;">
-                <img src="images/torta_nina_corona.jpg" class="card-img-top" alt="..." >
+              <div class="card" style=" box-shadow: 5px 5px palevioletred ;" style="height: 360px;">
+                <img src="images/torta_nina_corona.jpg" class="card-img-top" alt="..." style="height: 200px;" >
                 <p class="card-text" style="margin: 0px;">$2000</p>
                 <p class="card-text" style="color: green;">ENVIO GRATIS</p>
                 <a href="comprar_tortas_niñas_cor.html" class="btn btn-primary" >comprar</a>

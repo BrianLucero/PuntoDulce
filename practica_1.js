@@ -52,6 +52,9 @@ function validarDatos() {
 
     form1.submit();
 
+
+   
+
   }
 
 

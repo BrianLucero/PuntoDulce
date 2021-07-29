@@ -23,7 +23,7 @@
           <img src="images/punto_dulce.jpg" width="80" height="40">
       </div>
     
-        <a class="navbar-brand" href="index.html#" style="color: white;background-color: black;">INICIO</a>
+        <a class="navbar-brand" href="index.html" style="color: white;background-color: black;">INICIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,21 +32,21 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
     
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="servicio.html#" style=" margin-left: 750px; color: white; background-color: black;">SERVICIO</a>
+              <a class="nav-link active" aria-current="page" href="servicio.html" style=" margin-left: 750px; color: white; background-color: black;">SERVICIO</a>
             </li>
     
             <li class="nav-item">
-              <a class="nav-link" href="producto.html#" style="color: white; background-color: black;">PRODUCTO</a>
+              <a class="nav-link" href="producto.html" style="color: white; background-color: black;">PRODUCTO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="quienes_somos.html#" style=" margin-left: 0px; color: white;background-color: black;">¿QUIENES SOMOS?</a>
+              <a class="nav-link active" aria-current="page" href="quienes_somos.html" style=" margin-left: 0px; color: white;background-color: black;">¿QUIENES SOMOS?</a>
             </li>
     
             
     
     
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="devolucion.html#" style=" margin-left: 0px; color: white;background-color: black;">DEVOLUCION</a>
+              <a class="nav-link active" aria-current="page" href="devolucion.html" style=" margin-left: 0px; color: white;background-color: black;">DEVOLUCION</a>
             </li>
     
             <li class="nav-item"  >
@@ -73,8 +73,8 @@
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <nav aria-label="breadcrumb" >
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="categoria.html#">Inicio</a></li>
-          <li class="breadcrumb-item"><a href="panaderia.html#">Panaderia</a></li>
+          <li class="breadcrumb-item"><a href="categoria.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="panaderia.html">Panaderia</a></li>
           <li class="breadcrumb-item active" aria-current="page">Pastelitos</li>
         </ol>
       </nav>
@@ -91,31 +91,21 @@
 
     <ol style="list-style: none;">
       <li >
-        <a href="pasteleria.html#">PASTELERIA</a>
+        <a href="pasteleria.html">PASTELERIA</a>
       </li> 
 
       <li>
-        <a href="panaderia.html#" onclick="mostrarCategoria();" >PANADERIA</a>
+        <a href="panaderia.html" onclick="mostrarCategoria();" >PANADERIA</a>
       </li>
 
       <ul >
-        <li style="list-style: none; " >
-          <a href="pastaflora.html#"  id="pastafrola" style="  display: none; list-style: none; ">pastafrolas</a>
-          
-        </li>
 
-        <li class="categoria" style=" display: none;list-style: none"  ><a href="pan.html"> pan  </a>
+        <li class="categoria" id="muffins"  style="  display: none; list-style: none;" ><a href="muffins.html"> muffins </a></li>
+        <li class="categoria" id="pastelitos"  style="  list-style: none;"><a href="pastelitos.html"  style="color: red;"> pastelitos </a>
+          <a href="#" id="mas" onclick="mostrarCategoria(); " style="font-size: 13px; margin: 0px;">(ver más)</a>
+          <a href="#" id="menos" onclick="validarSacar();" style="display: none;font-size: 13px; margin: 0px;">(ver menos)</a></li>
+        <li class="categoria" id="donas"  style="  display: none; list-style: none;"><a href="donas.html"> donas </a></li>
            
-          </li>
-        <li class="categoria" id="mufins"  style="  display: none; list-style: none;" ><a href="muffins.html"> mufins </a></li>
-        <li class="categoria" id="donas"  style="  display: none; list-style: none;"><a href="donas.html#"> donas </a></li>
-        <li class="categoria" id="churros"  style="  display: none; list-style: none;"><a href="churros.html#"> churros </a></li>
-        <li class="categoria" id="facturas"  style="  display: none; list-style: none;"><a href="facturas.html#"> facturas </a></li>
-        <li class="categoria" id="pastelitos"  style="  list-style: none;"><a href="pastelitos.html#"  style="color: red;"> pastelitos </a>
-            <a href="#" id="mas" onclick="mostrarCategoria(); " style="font-size: 13px; margin: 0px;">(ver más)</a>
-            <a href="#" id="menos" onclick="validarSacar();" style="display: none;font-size: 13px; margin: 0px;">(ver menos)</a></li>
-        <li class="categoria" id="galletitas"  style="  display: none; list-style: none;"><a href="galletitas.html#"> galletitas </a></li>
-        <li  class="categoria" id="bolitas_de_fraile"  style="  display: none; list-style: none;"><a href="bolitas_de_fraile.html#"> bolitas de fraile </a></li>         
       </ul>
     </ol>
   </div>
@@ -131,27 +121,27 @@
       <div class="row">
 
         <div class="col-md-6" >
-          <div class="card" style="box-shadow: 5px 5px lightblue;width: 250px;padding:0px; margin-right: 0px; margin-bottom: 50px; margin-left: 100px;">
-            <img src="images/pastelitos_mem.jpg" class="card-img-top" alt="...">
+          <div class="card" style="box-shadow: 5px 5px lightblue;width: 250px;padding:0px; margin-right: 0px; margin-bottom: 50px; margin-left: 100px;height: 360px;">
+            <img src="images/pastelitos_mem.jpg" class="card-img-top" alt="..." style="height: 170px;">
             <div class="card-body">
               <h5 class="card-title" style="margin: 0px;text-align: center;">PASTELITOS DE MEMBRILLO</h5>
               <p class="card-text" style="margin: 0px;">1 doc $120.</p>
               <p class="card-text" style="color: green;">ENVIO GRATIS</p>
-              <a href="ver_mas_pastelito_mem.html#" class="card-link">Ver más...</a>
-              <a href="comprar_pastelito_mem.html#" class="btn btn-primary">comprar</a>
+              <a href="ver_mas_pastelito_mem.html" class="card-link">Ver más...</a>
+              <a href="comprar_pastelito_mem.html" class="btn btn-primary">comprar</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="card" style=" box-shadow: 5px 5px lightblue;width: 250px;padding:0px; margin-right: 0px; margin-bottom: 50px;  margin-right: 100px;">
-            <img src="images/pastelitos.jpeg" class="card-img-top" alt="...">
+          <div class="card" style=" box-shadow: 5px 5px lightblue;width: 250px;padding:0px; margin-right: 0px; margin-bottom: 50px;  margin-right: 100px; height: 360px;">
+            <img src="images/pastelitos.jpeg" class="card-img-top" alt="..." style="height: 170px;">
             <div class="card-body">
               <h5 class="card-title"  style="margin: 0px;text-align: center;">PASTELITOS DE BATATA</h5>
               <p class="card-text" style="margin: 0px;">1 doc $120.</p>
               <p class="card-text" style="color: green;">ENVIO GRATIS</p>
-              <a href="ver_mas_pastelito_bat.html#" class="card-link">Ver más...</a>
-              <a href="comprar_pastelito_bat.html#" class="btn btn-primary">comprar</a>
+              <a href="ver_mas_pastelito_bat.html" class="card-link">Ver más...</a>
+              <a href="comprar_pastelito_bat.html" class="btn btn-primary">comprar</a>
             </div>
           </div>
         </div>
