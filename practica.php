@@ -1,3 +1,20 @@
+<?php 
+
+
+if ((((isset($_POST['enviar'])) {
+    if (!empty($_POST['email']) && !empty($_POST['contraseña1'])))) {
+        $email = $_POST['email'];
+        $contraseña1 = $_POST['contraseña1'];
+        $header = "From:lucero14.lucero@gmail.com" . "/r/n";
+        $header.= "Reply-To: lucero14.lucero@gmail.com . /r/n";
+        $header.= "X-Mailer: PHP/". phpversion();
+        $mail = @mail($email,$contraseña1);
+
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,11 +69,7 @@
 
 </div>   
 
-<?php
 
-include("correo.php");
-
-?>
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
